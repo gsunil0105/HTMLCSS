@@ -14,8 +14,20 @@ ol li:nth-child(2) {
 }
 
 .bg-color{
-    background: rgb(255,255,255) url('1.jpeg') no-repeat center fixed;
+    background: rgb(190, 78, 78) url('1.jpeg') no-repeat center fixed;
     background-size: cover;
-    height: 700px;
+    height: 500px;
     width: 700px;
+    box-shadow: darkcyan;
+}
+
+div{
+    background-color: chartreuse;
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+#border-all{
+    border: 10px solid chocolate;
 }
