@@ -1,0 +1,21 @@
+ol{
+    background-color: silver;
+}
+li{
+    color: white;
+    font-family: "Comic Sans Ms", sans-serif;
+    font-size: 30px;
+}
+ol li:nth-child(1) {
+    background-color: aqua;
+}
+ol li:nth-child(2) {
+    background-color: red;
+}
+
+.bg-color{
+    background: rgb(255,255,255) url('1.jpeg') no-repeat center fixed;
+    background-size: cover;
+    height: 700px;
+    width: 700px;
+}
